@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/8161ea08cc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="card">
+      <img
+        src="./images/drawers.jpg"
+        alt="drawers with decor on top"
+        class="hero"
+      />
+
+      <article class="article">
+        <div class="container">
+          <h3>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <!-- add .clrDGB to footer when click on shareBtn -->
+        <div class="article__share">
+          <div class="credit">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="image of female author"
+              class="credit__img"
+            />
+            <div class="credit__data">
+              <div class="author">Michelle Appleton</div>
+              <div class="publishDate">28 Jun 2020</div>
+            </div>
+          </div>
+          <!-- /author credit -->
+          <div class="shareBar shareBar-mobile">
+            <span id="share">share</span>
+            <div class="icons">
+              <i class="fab fa-facebook-square icon"></i>
+              <i class="fab fa-twitter icon"></i>
+              <i class="fab fa-pinterest icon"></i>
+            </div>
+          </div>
+          <!-- /mobile shareBar -->
+          <div class="shareBar shareBar-desktop">
+            <span id="share">share</span>
+            <div class="icons">
+              <i class="fab fa-facebook-square icon"></i>
+              <i class="fab fa-twitter icon"></i>
+              <i class="fab fa-pinterest icon"></i>
+            </div>
+            <div class="triangle"></div>
+          </div>
+          <!-- /desktop shareBar -->
+          <div class="shareBtn">
+            <i class="fas fa-share"></i>
+          </div>
+          <!-- /share button -->
+        </div>
+      </article>
+    </main>
+  </body>
+  <script src="./share.js"></script>
+</html>
