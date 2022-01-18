@@ -130,7 +130,7 @@ p {
   background-color: var(--clr-dark-grayish-blue);
 }
 
-#share {
+.share {
   text-transform: uppercase;
   font-size: 0.8125rem;
   letter-spacing: 5px;
